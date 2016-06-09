@@ -1,0 +1,13 @@
+[
+  {
+    "id" : "testClass",
+    "class" : "com.jimsshom.springditest.component.TestClass",
+    "properties" : {
+      "value" : 5
+    }
+  },
+  {
+    "id" : "class2",
+    "class" : "com.jimsshom.springditest.component.TestClass"
+  }
+]
