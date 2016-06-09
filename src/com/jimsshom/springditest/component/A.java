@@ -52,6 +52,15 @@ public class A {
         this.floatNum = floatNum;
     }
 
+    public void afterInit() {
+        System.out.println("class A has been inited");
+    }
+
+    public void changeDoubleNum(Double doubleNum, String user) {
+        this.doubleNum = doubleNum;
+        System.out.println(user + " has changed doubleNum: " + doubleNum);
+    }
+
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder("A{");

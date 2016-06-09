@@ -23,7 +23,16 @@
         "type" : "value",
         "value" : 325.43
       }
-    }
+    },
+    "initFuncList" : [
+      {
+        "func" : "afterInit"
+      },
+      {
+        "func" : "changeDoubleNum",
+        "params" : [325.43, "jimsshom"]
+      }
+    ]
   },
   {
     "id" : "testClass",
