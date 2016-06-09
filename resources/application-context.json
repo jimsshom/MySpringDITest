@@ -1,9 +1,42 @@
 [
   {
+    "id" : "a",
+    "class" : "com.jimsshom.springditest.component.A",
+    "properties" : {
+      "name" : {
+        "type" : "value",
+        "value" : "helloWorld"
+      },
+      "testClass" : {
+        "type" : "id",
+        "value" : "class2"
+      },
+      "intNum" : {
+        "type" : "value",
+        "value" : 456
+      },
+      "doubleNum" : {
+        "type" : "value",
+        "value" : 5.6345
+      },
+      "floatNum" : {
+        "type" : "value",
+        "value" : 325.43
+      }
+    }
+  },
+  {
     "id" : "testClass",
     "class" : "com.jimsshom.springditest.component.TestClass",
     "properties" : {
-      "value" : 5
+      "value" : {
+        "type" : "value",
+        "value" : 5
+      },
+      "a" : {
+        "type" : "id",
+        "value" : "a"
+      }
     }
   },
   {

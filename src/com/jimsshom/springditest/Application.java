@@ -12,10 +12,8 @@ public class Application {
         MyJsonDIContext.addContextByFilePath("resources/application-context.json");
         TestClass testClass = (TestClass) MyJsonDIContext.getBeanById("testClass");
         System.out.println(testClass);
-        System.out.println(testClass.getValue());
 
         testClass = (TestClass) MyJsonDIContext.getBeanById("class2");
         System.out.println(testClass);
-        System.out.println(testClass.getValue());
     }
 }
